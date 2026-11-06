@@ -1,0 +1,51 @@
+# --- ESP-IDF build output ---
+build/
+managed_components/
+dependencies.lock
+
+# Generated config: commit sdkconfig.defaults instead
+# (regenerate with `idf.py save-defconfig`)
+sdkconfig
+sdkconfig.old
+sdkconfig.bak
+sdkconfig.backup*
+
+# --- Logs / debug output ---
+*.log
+debug_log.txt
+*.bmp
+
+# --- Backups / editor temp files ---
+*.backup
+*.bak
+*.orig
+*~
+*.swp
+*.swo
+
+# --- IDE / local tooling ---
+.vscode/
+.idea/
+.cache/
+compile_commands.json
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Vendor datasheets / schematics (link to the vendor instead) ---
+*.pdf
+
+# --- Archives ---
+*.zip
+*.tar.gz
+*.rar
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
